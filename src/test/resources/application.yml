@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: parameter-catalog-smartlife
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${PARAMETER_CATALOG_GIT_URI:https://github.com/mateoguerramarin-dotcom/Parameter-Catalog-SmartLife}
+          default-label: main
+          timeout: 10
+
+server:
+  port: ${PORT:8888}

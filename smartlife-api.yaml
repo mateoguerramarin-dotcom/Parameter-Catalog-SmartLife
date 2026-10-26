@@ -1,0 +1,12 @@
+# Parametros de SmartLife. El nombre del archivo es el nombre de la aplicacion cliente (spring.application.name=smartlife-api).
+# IMPORTANTE: aqui no van claves ni secretos, solo parametros de negocio. Los secretos estan en Secret Manager.
+smartlife:
+  visits:
+    max-authorization-duration: 24h
+    max-anticipation: 30d
+    start-tolerance: 10m
+    document:
+      max-size: 5MB
+      allowed-types: application/pdf,image/jpeg,image/png
+    qr-base-url: http://localhost:5173/visitas/autorizaciones/
+    time-zone: UTC
