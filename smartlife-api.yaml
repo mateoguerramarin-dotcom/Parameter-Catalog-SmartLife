@@ -8,5 +8,5 @@ smartlife:
     document:
       max-size: 5MB
       allowed-types: application/pdf,image/jpeg,image/png
-    qr-base-url: http://localhost:5173/visitas/autorizaciones/
+    qr-base-url: https://smartlife.sarl/visitas/autorizaciones/
     time-zone: UTC
