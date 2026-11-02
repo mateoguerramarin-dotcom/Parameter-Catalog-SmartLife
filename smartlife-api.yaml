@@ -9,4 +9,4 @@ smartlife:
       max-size: 5MB
       allowed-types: application/pdf,image/jpeg,image/png
     qr-base-url: https://smartlife.sarl/visitas/autorizaciones/
-    time-zone: UTC
+    time-zone: America/Bogota
